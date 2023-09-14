@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 16.112 s <<< FAILURE! - in TestSuite
+updateComment(TestFramework.Basics8_UpdateComment)  Time elapsed: 2.04 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at TestFramework.Basics8_UpdateComment.updateComment(Basics8_UpdateComment.java:29)
+
+addComment(TestFramework.Basic7_addingcomment)  Time elapsed: 1.997 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at TestFramework.Basic7_addingcomment.addComment(Basic7_addingcomment.java:28)
+
+JiraAPI(TestFramework.basics6)  Time elapsed: 2.017 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at TestFramework.basics6.JiraAPI(basics6.java:38)
+

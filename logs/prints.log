@@ -1,0 +1,11 @@
+12:26:15.603 [main] INFO  TestFramework.Basics3 - place_id :qgYvCi0wMDAwMDA4NzY0MjI0OTlhOjZiMTJhZTM3YjQ3OjhkNTMyN2QyNmNkNDQ5Mjg
+18:17:29.781 [main] INFO  TestFramework.Basics3 - Host Information :https://maps.googleapis.com
+18:17:33.032 [main] INFO  TestFramework.Basics3 - {
+   "id" : "31f5e282e44342edb32bff1f69dd6908d0c968b6",
+   "place_id" : "qgYvCi0wMDAwMDA4NzY0MjI0OTlhOjZiMTJhZTM3YjQ3OjIzZGQxZWQ4ZmIwZTYwYzk",
+   "reference" : "CkQxAAAAl8ynCsqMidCa7ZMevpAfcpSX72N-CtHawuOqVVEiDSMz0vFoJiuElaWkESJ_9iKc_Pr4WHN61C32ac0i_tbJzRIQWRs9kHgnjGVi7ffYR1-FDRoURHpfo62-IcGVOoyFOfhNHpwV2kk",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+18:17:33.050 [main] INFO  TestFramework.Basics3 - place_id :qgYvCi0wMDAwMDA4NzY0MjI0OTlhOjZiMTJhZTM3YjQ3OjIzZGQxZWQ4ZmIwZTYwYzk

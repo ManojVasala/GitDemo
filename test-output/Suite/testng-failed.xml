@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Rest API(failed)">
+    <classes>
+      <class name="TestFramework.Basics2_Xml">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.Basics2_Xml -->
+      <class name="TestFramework.basics6">
+        <methods>
+          <include name="JiraAPI"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.basics6 -->
+      <class name="TestFramework.Basics2">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.Basics2 -->
+      <class name="TestFramework.Basics8_UpdateComment">
+        <methods>
+          <include name="updateComment"/>
+        </methods>
+      </class> <!-- TestFramework.Basics8_UpdateComment -->
+      <class name="TestFramework.Basics3">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.Basics3 -->
+      <class name="TestFramework.Basic_JsonTraverse">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.Basic_JsonTraverse -->
+      <class name="TestFramework.Basics">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.Basics -->
+      <class name="TestFramework.Basic7_addingcomment">
+        <methods>
+          <include name="addComment"/>
+        </methods>
+      </class> <!-- TestFramework.Basic7_addingcomment -->
+    </classes>
+  </test> <!-- Rest API(failed) -->
+</suite> <!-- Failed suite [Suite] -->

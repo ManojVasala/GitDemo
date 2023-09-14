@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="resources.ExtentReporterNG">
+</listener>
+</listeners>
+  <test name="Rest API">
+    <classes>
+      <class name="TestFramework.Basics3"/>
+      <class name="TestFramework.Basics8_UpdateComment"/>
+      <class name="TestFramework.Basics2"/>
+      <class name="TestFramework.Basic_JsonTraverse"/>
+      <class name="TestFramework.Basics"/>
+      <class name="TestFramework.Basic7_addingcomment"/>
+      <class name="TestFramework.Basics33test"/>
+      <class name="TestFramework.basics6"/>
+      <class name="TestFramework.Basics2_Xml"/>
+      <!-- <class name="TestFramework.Bascic9_TwitterAPI"/> -->
+    </classes>
+  </test> <!-- Rest API -->
+</suite> <!-- Suite -->
