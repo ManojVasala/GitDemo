@@ -8,6 +8,8 @@ public class Resources {
 		System.out.println("Post jira2");
 		System.out.println("Post jira3");
 System.out.println("Post jira3");
+System.out.println("Post jira4");
+System.out.println("Post jira4");
 		return res;
 		
 	}
